@@ -1,0 +1,11 @@
+sources:
+  - name: walmart_databricks
+    database: "{{ env_var('DATABRICKS_CATALOG', 'walmart') }}"
+    schema: bronze
+    tables:
+      - name: orders
+      - name: products
+      - name: order_items
+      - name: customers
+      - name: employees
+      - name: stores

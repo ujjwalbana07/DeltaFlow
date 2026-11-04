@@ -1,0 +1,33 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local secrets and reference material
+.env
+.env.*
+!.env.example
+.vscode/
+Reference_project*/
+.DS_Store
+# Runtime artifacts
+**/logs/
+**/target/
+**/dbt_packages/
+**/.user.yml
+
+# Generated Airflow configuration can contain local secrets
+Airflow/config/airflow.cfg
+# Local credential files
+.aws/
+.dbt/
+*.pem
+*.key
+*.p12
+*.pfx

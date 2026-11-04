@@ -1,0 +1,6 @@
+version: 2
+models:
+  - name: obt_b
+    columns:
+      - name: order_item_id
+        data_tests: [not_null, unique]

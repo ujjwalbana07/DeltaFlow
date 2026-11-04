@@ -1,0 +1,4 @@
+apache-airflow-providers-standard>=1.0,<2
+databricks-sdk>=0.41,<0.48
+dbt-core==1.12.6
+dbt-databricks==1.10.9
